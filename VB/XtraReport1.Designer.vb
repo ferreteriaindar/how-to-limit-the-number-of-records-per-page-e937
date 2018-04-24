@@ -43,10 +43,10 @@
             Me.parameter1 = New DevExpress.XtraReports.Parameters.Parameter()
             Me.topMarginBand1 = New DevExpress.XtraReports.UI.TopMarginBand()
             Me.bottomMarginBand1 = New DevExpress.XtraReports.UI.BottomMarginBand()
-            DirectCast(Me.nwindDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.xrTable2, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.xrTable1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.nwindDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.xrTable2, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.xrTable1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
             ' 
             ' Detail
             ' 
@@ -216,10 +216,10 @@
             Me.Parameters.AddRange(New DevExpress.XtraReports.Parameters.Parameter() { Me.parameter1})
             Me.SnappingMode = DevExpress.XtraReports.UI.SnappingMode.SnapToGrid
             Me.Version = "12.2"
-            DirectCast(Me.nwindDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.xrTable2, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.xrTable1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.nwindDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.xrTable2, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.xrTable1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
         End Sub
 
